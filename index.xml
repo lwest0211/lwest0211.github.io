@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>SITENAME</title>
+<link>https://USERNAME.github.io/</link>
+<atom:link href="https://USERNAME.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>A blog built with Quarto</description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Tue, 21 Apr 2026 19:15:25 GMT</lastBuildDate>
+<item>
+  <title>Quarto manuscript</title>
+  <dc:creator>Martin Laptev</dc:creator>
+  <link>https://USERNAME.github.io/posts/manuscript/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>For over a decade, I have been promoting the idea that software development skills can be useful for everyone — not just software engineers. With recent advances in artificial intelligence, software development is no longer solely the domain of highly trained engineers.</p>
+<p>One of the best ways to get started crafting software is to create your own website.</p>
+<p>The tools I used to create websites have improved greatly over time and as a result I would port my personal website to a new system every few years.</p>
+<p>After a few years of building websites with Quarto, I am certain that I will not have to switch to another system ever again.</p>
+<p>The best way to learn about Quarto is to read the <a href="https://quarto.org/docs/guide">official documentation</a>, but the fastest way to get started with Quarto is to use a GitHub <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#about-repository-templates">template repository</a> (template repo) that already has everything you need.</p>
+<p>I created a template repo for each of the three main kinds of Quarto websites:</p>
+<ul>
+<li>Manuscript: <a href="https://github.com/maptv/art" class="uri">https://github.com/maptv/art</a></li>
+<li>Book: <a href="https://github.com/maptv/book" class="uri">https://github.com/maptv/book</a></li>
+<li>Blog: <a href="https://github.com/maptv/USERNAME.github.io" class="uri">https://github.com/maptv/USERNAME.github.io</a></li>
+</ul>
+<p>You can see examples of <a href="https://quarto.org/docs/gallery/#articles-reports">manuscripts</a>, <a href="https://quarto.org/docs/gallery/#books">books</a>, and <a href="https://quarto.org/docs/gallery/#websites">blogs</a> in the <a href="http://quarto.org/docs/gallery">Quarto Gallery</a>.</p>
+<p>I consider manuscript websites to be the simplest of the three, because the final product can consist of a single webpage, as shown by the <a href="https://quarto-ext.github.io/manuscript-template-jupyter">example</a> in the documentation.</p>
+<p>In contrast, the expectation is that there will be multiple chapters in a book and multiple posts in a weblog (blog).</p>
+<p>The common thread across all of these types of websites is that the content of each webpage is stored in at least one Quarto markdown (qmd) file.</p>
+<p>Therefore, a Quarto manuscript website can store all of its content in a single qmd file, whereas Quarto books and blogs are designed to have multiple qmd files.</p>
+<p>Between books and blogs, I consider books to be simpler, because all of the chapters in a book can be stored together in the top level directory (root), whereas the default structure of a Quarto blog includes a <code>posts</code> directory that contains a subdirectory for each post.</p>
+<p>Regardless of what you want to build with Quarto, you may want to follow the steps below to create a Quarto manuscript so that you can get familiar with the steps needed to publish and update a Quarto website before tackling the greater complexity of a book or a blog.</p>
+<p>After you feel comfortable with a Quarto manuscript, try to repeat the steps below with my book template repo: <a href="https://github.com/maptv/book" class="uri">https://github.com/maptv/book</a>.</p>
+<p>The steps below should also work for my blog template repo: <a href="https://github.com/maptv/USERNAME.github.io" class="uri">https://github.com/maptv/USERNAME.github.io</a>, but I prepared separate <a href="../../posts/presentation">blog setup instructions</a> which also explain</p>
+<ul>
+<li>why the template repository is called <code>USERNAME.github.io</code> and</li>
+<li>how to embed a Quarto presentation into a webpage like a Quarto blog post.</li>
+</ul>
+<section id="setup" class="level1">
+<h1>Setup</h1>
+<ol start="0" type="1">
+<li><p>Go to the <a href="https://github.com/maptv/art">manuscript</a> or <a href="https://github.com/maptv/book">book</a> template repo I prepared</p></li>
+<li><p>Click “Use this template” and then “Create new repository”</p></li>
+</ol>
+<p><img src="https://USERNAME.github.io/posts/manuscript/images/clipboard-3526150383.png" class="img-fluid" width="290"></p>
+<ol start="2" type="1">
+<li>Enter a repository name and click “Create repository”</li>
+</ol>
+<p><img src="https://USERNAME.github.io/posts/manuscript/images/clipboard-2337781893.png" class="img-fluid" width="290"></p>
+<ol start="3" type="1">
+<li><p>Copy the web address (url)</p></li>
+<li><p>Go to https://posit.cloud</p></li>
+<li><p>Click “New Project” and then “New Project from Git Repository”</p></li>
+</ol>
+<p><img src="https://USERNAME.github.io/posts/manuscript/images/clipboard-372316784.png" class="img-fluid" width="290"></p>
+<ol start="6" type="1">
+<li>Paste the repo url you copied in Step 3 and click “OK”</li>
+<li>In the Files tab of the bottom right pane, select git.R</li>
+<li>Edit the user.name and user.email values in git.R and click the diskette icon to save</li>
+<li>When you see a yellow banner above git.R, click “Install” and wait for installation to complete in the background</li>
+<li>Click “Source” in the upper right corner of the upper left pane (the one that is displaying git.R)</li>
+<li>If you already have a Personal Access Token (PAT), close the new browser tab that opened. Otherwise, enter a note, click “Generate Token”, and click the copy button.</li>
+</ol>
+</section>
+<section id="updating" class="level1">
+<h1>Updating</h1>
+<ol start="12" type="1">
+<li>Make at least one change to at least one file, such as the edits to git.R above</li>
+<li>Click the “Git” tab in the top right pane of Posit Cloud</li>
+<li>Click the check box next to the file you changed</li>
+<li>Click “Commit” to open a popup window (modal)</li>
+<li>Enter a commit message in the upper right corner of the modal and click “Commit”</li>
+<li>Close all modals and click the green up arrow labeled “Push” to push your commit to GitHub</li>
+</ol>
+</section>
+<section id="publishing" class="level1">
+<h1>Publishing</h1>
+<ol start="18" type="1">
+<li>Push at least one commit to your repo using the instructions above so that the credentials manager has your username and PAT</li>
+<li>Copy the command below, paste it into the terminal tab in the lower left pane, and press Enter or Return</li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> publish gh-pages</span></code></pre></div></div>
+<p>If all goes according to plan, you will never again need to run <code>quarto publish gh-pages</code> again for this repo because — thanks to <code>.github/workflows/publish.yml</code> — your site will be built and published whenever you update your site by pushing at least one commit to your repo using the “Updating” instructions above.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://USERNAME.github.io/posts/manuscript/</guid>
+  <pubDate>Tue, 21 Apr 2026 19:15:25 GMT</pubDate>
+  <media:content url="https://USERNAME.github.io/posts/manuscript/images/quar.png" medium="image" type="image/png" height="53" width="144"/>
+</item>
+<item>
+  <title>Quarto presentation</title>
+  <dc:creator>Martin Laptev</dc:creator>
+  <link>https://USERNAME.github.io/posts/presentation/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>With Quarto, you can turn Quarto markdown (qmd) files into documents like articles or reports, websites such as blogs, and different kinds of presentations including sales pitches.</p>
+<p>Like other digital deliverables created by Quarto, presentations can be rendered as HTML, viewed in a web browser, and saved as a PDF using the print dialog.</p>
+<p>Before saving, we should make sure the Layout is set to Landscape.</p>
+<p><img src="https://USERNAME.github.io/posts/presentation/images/clipboard-1451207711.png" class="img-fluid" style="border-color: gray;border-style: solid;"></p>
+<p>A PDF presentation should have only one slide per page, but putting multiple slides on one page may be convenient if we want to read the slides instead of presenting them.</p>
+<p><img src="https://USERNAME.github.io/posts/presentation/images/clipboard-4067504015.png" class="img-fluid"></p>
+<p>For best results, I suggest following the PDF export instructions in the <a href="https://revealjs.com">RevealJS</a> documentation: <a href="https://revealjs.com/pdf-export/" class="uri">https://revealjs.com/pdf-export/</a>.</p>
+<p>PDF files are ubiquitous and it is good to know that you can generate one with nothing more than a web browser whenever necessary, but HTML files can do many things that PDF files simply cannot.</p>
+<p>The HTML presentation below demonstrates all of the features described in its slides, many of which are not active in the PDF presentation beneath it.</p>
+<div>
+<iframe class="slide-deck" src="demo/" width="100%"></iframe>
+</div>
+<div>
+<iframe class="slide-deck" src="demo/demo.pdf" width="100%"></iframe>
+</div>
+<p>Instead of embedding your presentation in a webpage as shown above, you can view it in its own browser tab in <a href="demo/">HTML</a> or <a href="demo/demo.pdf">PDF</a> format.</p>
+<p>To edit a presentation, you can modify the plain text of the associated qmd file in a <a href="https://en.wikipedia.org/wiki/Text_editor">text editor</a> or work with a <a href="https://en.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> version via the <a href="https://docs.posit.co/ide/user/ide/guide/documents/visual-editor.html">Visual Mode</a> in RStudio, VSCode, or Positron.</p>
+<p>This repo is set up to use the <a href="https://emilhvitfeldt.github.io/quarto-revealjs-editable/getting-started.html">quarto-revealjs-editable</a> extension by <a href="https://emilhvitfeldt.github.io/about">Emil Hvitfeldt</a> which provides an editing experience that is similar to PowerPoint or Google Slides.</p>
+<p>After following the instructions below, try previewing the slides by clicking “Render” in RStudio or Posit Cloud, or by running <code>quarto preview</code> in the terminal, and then try adding, moving, resizing, and rotating text, arrows, and images as described the <a href="https://emilhvitfeldt.github.io/quarto-revealjs-editable/getting-started.html#interacting-with-elements">documentation</a> of the extension.</p>
+<section id="blog-and-presentation-setup-instructions" class="level1">
+<h1>Blog and presentation setup instructions</h1>
+<section id="github-repo" class="level2">
+<h2 class="anchored" data-anchor-id="github-repo">GitHub repo</h2>
+<p>0. Go to the repo I prepared: <a href="https://github.com/maptv/USERNAME.github.io" class="uri">https://github.com/maptv/USERNAME.github.io</a></p>
+<p>1. Copy “USERNAME.github.io”</p>
+<p>2. Click “Use this template” and then “Create new repository”</p>
+<p>3. Paste “USERNAME.github.io” in as the repository name</p>
+<p>4. Copy your GitHub username and paste it in place of “USERNAME” in “USERNAME.github.io”</p>
+<p><img width="442" height="395" alt="image" src="https://github.com/user-attachments/assets/dafe6b6b-0194-4b44-9e97-b9116a039540"></p>
+<p>5. Click “Create repository”</p>
+<p>6. Copy the web address (url)</p>
+</section>
+<section id="posit-cloud-project" class="level2">
+<h2 class="anchored" data-anchor-id="posit-cloud-project">Posit Cloud project</h2>
+<p>7. Go to <a href="https://posit.cloud/">https://posit.cloud</a></p>
+<p>8. Click “New Project” and then “New Project from Git Repository”</p>
+<p>9. Paste the repo url you copied in Step 3 and click “OK”</p>
+<p><img width="659" height="254" alt="image" src="https://github.com/user-attachments/assets/23a40a7e-d897-4aad-8fd7-234ddb3a3776"></p>
+</section>
+<section id="git-setup" class="level2">
+<h2 class="anchored" data-anchor-id="git-setup">Git setup</h2>
+<p>10. In the Files tab of the bottom right pane, select git.R</p>
+<p>11. Edit the user.name and user.email values in git.R and click the diskette icon to save</p>
+<p>12. When you see a yellow banner above git.R, click “Install” and wait for installation to complete in the background</p>
+<p><img width="512" height="251" alt="image" src="https://github.com/user-attachments/assets/d9571374-4b31-48ab-9edb-9cd7ff4eaa27"></p>
+<p>13. Click “Source” in the upper right corner of the upper left pane (the one that is displaying git.R)</p>
+<p>14. If you already have a Personal Access Token (PAT), close the new browser tab that opened. Otherwise, enter a note, click “Generate Token”, and click the copy button.</p>
+</section>
+<section id="updating" class="level2">
+<h2 class="anchored" data-anchor-id="updating">Updating</h2>
+<p>15. Make at least one change to at least one file, such as the edits to git.R above</p>
+<p>16. Click the “Git” tab in the top right pane of Posit Cloud</p>
+<p>17. Click the <a href="https://en.wikipedia.org/wiki/Checkbox#:~:text=a%20graphical%20widget%20that%20allows%20the%20user%20to%20make%20a%20binary%20choice">check box</a> next to the file you changed</p>
+<p>18. Click “Commit” to open a popup window (<a href="https://en.wikipedia.org/wiki/Modal_window#:~:text=a%20graphical%20control%20element%20subordinate%20to%20an%20application%27s%20main%20window">modal</a>)</p>
+<p>19. Enter a commit message in the upper right corner of the modal and click “Commit”</p>
+<p>20. Close all modals and click the green up arrow labeled “Push” to push your commit to GitHub</p>
+<p><img width="946" height="343" alt="image" src="https://github.com/user-attachments/assets/92db4bfd-1828-48a7-a0f7-bf74a07ae189"></p>
+</section>
+<section id="publishing" class="level2">
+<h2 class="anchored" data-anchor-id="publishing">Publishing</h2>
+<p>21. Push at least one commit to your repo using the instructions above so that the credentials manager has your username and PAT</p>
+<p>22. Click on the “publi.sh” file in the “File” tab of the bottom right pane, click “Run” in the upper right corner of the upper left pane, then type “y” in the terminal, press Enter or Return</p>
+<p><img width="802" height="205" alt="image" src="https://github.com/user-attachments/assets/32e42f7a-0818-4193-86e4-142221e0b02a"></p>
+</section>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<p>After the first time you complete Step 22, you can click “Run Script” instead of “Run” and publish with the need to confirm by entering “y” in the terminal.</p>
+<p><img width="506" height="95" alt="image" src="https://github.com/user-attachments/assets/41814bb7-8c85-468b-a004-02c3b52deac7"></p>
+<p>You may prefer to show the preview of your presentation in the Viewer tab of the lower right pane instead of a separate window.</p>
+<p><img width="729" height="244" alt="image" src="https://github.com/user-attachments/assets/5cfa5359-710b-477a-9cac-8865cf115fa4"></p>
+<p>You can always click “Present in an external browser” if you want to dedicate a whole browser tab to the preview.</p>
+<p><img width="800" height="137" alt="image" src="https://github.com/user-attachments/assets/bec8d6c8-043a-4ca8-a163-871be8d55ccb"></p>
+<p>The template repo I created has the <a href="https://emilhvitfeldt.github.io/quarto-revealjs-editable/getting-started.html">quarto-revealjs-editable</a> extension by <a href="https://emilhvitfeldt.github.io/about">Emil Hvitfeldt</a> already installed so that you can make edits like in Powerpoint or Google Slides.</p>
+<p><img width="950" height="436" alt="image" src="https://github.com/user-attachments/assets/2e17d8b9-48b2-48e4-84e8-7880b6278baf"></p>
+<p>Depending on what you add to your site, you may need to install additional dependencies in Posit Cloud and modify the <code>.github/workflows/publish.yml</code> file so that you do not need to run <code>publi.sh</code> each time you want to update your site.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://USERNAME.github.io/posts/presentation/</guid>
+  <pubDate>Tue, 21 Apr 2026 19:15:25 GMT</pubDate>
+  <media:content url="https://USERNAME.github.io/posts/presentation/images/pres.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+</channel>
+</rss>
