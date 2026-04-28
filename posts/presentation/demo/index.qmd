@@ -1,62 +1,51 @@
----
-title: "Cholesterol Synthesis"
-format: revealjs
-bibliography: references.bib
----
-
 ## Cholesterol Synthesis: Basics
 
-- Cholesterol is a vital lipid used for:
-  - Cell membrane structure  
-  - Hormone production (steroids)  
-  - Bile acid formation  
+-   Cholesterol is a vital lipid used for:
+    -   Cell membrane structure\
+    -   Hormone production (steroids)\
+    -   Bile acid formation
+-   Synthesized mainly in the **liver**\
+-   Occurs in the **cytoplasm and smooth ER**\
+-   Built from a simple molecule: **acetyl-CoA**
 
-- Synthesized mainly in the **liver**  
-- Occurs in the **cytoplasm and smooth ER**  
-- Built from a simple molecule: **acetyl-CoA**  
-
-**Key Point:**  
+**Key Point:**\
 The body can make all the cholesterol it needs—dietary intake is not required. [@nelson2021; @berg2019]
 
----
+------------------------------------------------------------------------
 
 ## Key Steps in the Pathway
 
-1. **Acetyl-CoA → HMG-CoA**  
-2. **HMG-CoA → Mevalonate**  
-   - Enzyme: **HMG-CoA reductase** (rate-limiting step)  
-3. Mevalonate → **Isoprenoid units**  
-4. Isoprenoids → **Squalene**  
-5. Squalene → **Cholesterol**  
+1.  **Acetyl-CoA → HMG-CoA**\
+2.  **HMG-CoA → Mevalonate**
+    -   Enzyme: **HMG-CoA reductase** (rate-limiting step)\
+3.  Mevalonate → **Isoprenoid units**\
+4.  Isoprenoids → **Squalene**\
+5.  Squalene → **Cholesterol** **Key Point:**\
+    HMG-CoA reductase is the most important control point in cholesterol synthesis. [@nelson2021; @openstax2023]
 
-**Key Point:**  
-HMG-CoA reductase is the most important control point in cholesterol synthesis. [@nelson2021; @openstax2023]
-
----
+------------------------------------------------------------------------
 
 ## Regulation & Clinical Significance
 
-- Controlled by:
-  - **Negative feedback** (high cholesterol ↓ synthesis)  
-  - Hormones:
-    - Insulin ↑ synthesis  
-    - Glucagon ↓ synthesis  
+-   Controlled by:
+    -   **Negative feedback** (high cholesterol ↓ synthesis)\
+    -   Hormones:
+        -   Insulin ↑ synthesis\
+        -   Glucagon ↓ synthesis
+-   Medications:
+    -   **Statins** inhibit HMG-CoA reductase
+-   Imbalance can lead to:
+    -   **Atherosclerosis**\
+    -   Heart disease
 
-- Medications:
-  - **Statins** inhibit HMG-CoA reductase  
-
-- Imbalance can lead to:
-  - **Atherosclerosis**  
-  - Heart disease  
-
-**Key Point:**  
+**Key Point:**\
 Regulation ensures the body maintains healthy cholesterol levels. [@berg2019; @aha2022]
 
----
+------------------------------------------------------------------------
 
 ## References
 
-- Nelson, D. L., & Cox, M. M. (2021). *Lehninger Principles of Biochemistry* (8th ed.).  
-- Berg, J. M., Tymoczko, J. L., Gatto, G. J., & Stryer, L. (2019). *Biochemistry* (9th ed.).  
-- :contentReference[oaicite:0]{index=0}. (2023). *Biology 2e*.  
-- :contentReference[oaicite:1]{index=1}. (2022). Cholesterol and heart disease resources.
+-   Nelson, D. L., & Cox, M. M. (2021). *Lehninger Principles of Biochemistry* (8th ed.).\
+-   Berg, J. M., Tymoczko, J. L., Gatto, G. J., & Stryer, L. (2019). *Biochemistry* (9th ed.).\
+-   :contentReference[oaicite:0]{index="0"}. (2023). *Biology 2e*.\
+-   :contentReference[oaicite:1]{index="1"}. (2022). Cholesterol and heart disease resources.

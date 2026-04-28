@@ -1,10 +1,4 @@
----
-title: Quarto manuscript
-author: Martin Laptev
-image: images/quar.png
-filters:
-  - ../../date.lua
----
+------------------------------------------------------------------------
 
 For over a decade, I have been promoting the idea that software development skills can be useful for everyone --- not just software engineers. With recent advances in artificial intelligence, software development is no longer solely the domain of highly trained engineers.
 
