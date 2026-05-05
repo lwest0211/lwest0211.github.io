@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Tutorials",
     "section": "",
-    "text": "How to Study for an Anatomy & Physiology Exam\n\n\n\n\n\n\n\n\n1777990759\n\n\nLanasia West\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto presentation\n\n\n\n\n\n\n\n\n1777990759\n\n\nMartin Laptev\n\n\n\n\n\nNo matching items\nAttributions\n\nArtwork from “Hello, Quarto” keynote by Mine Çetinkaya-Rundel and Julia Stewart Lowndes, presented at RStudio Conference 2022. Illustrated by Allison Horst.\n\n\n\nA schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto.\n\n\n\n\n\nTwo penguins in a room made of ice, looking out a window. One penguin is holding an icicle as a pointer, pointing at a Quarto logo “moon” in the sky, while the other penguin looks on.\n\n\nFor more from Allison, see her website and GitHub."
+    "text": "How to Study for an Anatomy & Physiology Exam\n\n\n\n\n\n\n\n\n1777991252\n\n\nLanasia West\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto presentation\n\n\n\n\n\n\n\n\n1777991252\n\n\nMartin Laptev\n\n\n\n\n\nNo matching items\nAttributions\n\nArtwork from “Hello, Quarto” keynote by Mine Çetinkaya-Rundel and Julia Stewart Lowndes, presented at RStudio Conference 2022. Illustrated by Allison Horst.\n\n\n\nA schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto.\n\n\n\n\n\nTwo penguins in a room made of ice, looking out a window. One penguin is holding an icicle as a pointer, pointing at a Quarto logo “moon” in the sky, while the other penguin looks on.\n\n\nFor more from Allison, see her website and GitHub."
   },
   {
     "objectID": "posts/presentation/index.html",
@@ -140,37 +140,30 @@
     "text": "Conclusion\nSuccess in Anatomy & Physiology comes from: - Understanding concepts\n- Practicing actively\n- Repeating and reviewing consistently\nWith the right strategies, you can confidently master the material and perform well on your exam."
   },
   {
-    "objectID": "posts/presentation/demo/index.html",
-    "href": "posts/presentation/demo/index.html",
-    "title": "SITENAME",
-    "section": "",
-    "text": "title: “Cholesterol Synthesis”\n\n\nformat:\n\n\nrevealjs:\n\n\nslide-number: true\n\n\nchalkboard:\n\n\nbuttons: false\n\n\npreview-links: auto\n\n\ncss: styles.css\n\n\ninclude-after-body: date.html"
-  },
-  {
     "objectID": "posts/presentation/demo/index.html#cholesterol-synthesis-basics",
     "href": "posts/presentation/demo/index.html#cholesterol-synthesis-basics",
-    "title": "SITENAME",
+    "title": "Cholesterol Synthesis",
     "section": "Cholesterol Synthesis: Basics",
     "text": "Cholesterol Synthesis: Basics\n\nCholesterol is a vital lipid used for:\n\nCell membrane structure\n\nHormone production (steroids)\n\nBile acid formation\n\nSynthesized mainly in the liver\n\nOccurs in the cytoplasm and smooth ER\n\nBuilt from a simple molecule: acetyl-CoA\n\nKey Point:\nThe body can make all the cholesterol it needs—dietary intake is not required. [@nelson2021; @berg2019]"
   },
   {
     "objectID": "posts/presentation/demo/index.html#key-steps-in-the-pathway",
     "href": "posts/presentation/demo/index.html#key-steps-in-the-pathway",
-    "title": "SITENAME",
+    "title": "Cholesterol Synthesis",
     "section": "Key Steps in the Pathway",
     "text": "Key Steps in the Pathway\n\nAcetyl-CoA → HMG-CoA\n\nHMG-CoA → Mevalonate\n\nEnzyme: HMG-CoA reductase (rate-limiting step)\n\n\nMevalonate → Isoprenoid units\n\nIsoprenoids → Squalene\n\nSqualene → Cholesterol Key Point:\nHMG-CoA reductase is the most important control point in cholesterol synthesis. [@nelson2021; @openstax2023]"
   },
   {
     "objectID": "posts/presentation/demo/index.html#regulation-clinical-significance",
     "href": "posts/presentation/demo/index.html#regulation-clinical-significance",
-    "title": "SITENAME",
+    "title": "Cholesterol Synthesis",
     "section": "Regulation & Clinical Significance",
     "text": "Regulation & Clinical Significance\n\nControlled by:\n\nNegative feedback (high cholesterol ↓ synthesis)\n\nHormones:\n\nInsulin ↑ synthesis\n\nGlucagon ↓ synthesis\n\n\nMedications:\n\nStatins inhibit HMG-CoA reductase\n\nImbalance can lead to:\n\nAtherosclerosis\n\nHeart disease\n\n\nKey Point:\nRegulation ensures the body maintains healthy cholesterol levels. [@berg2019; @aha2022]"
   },
   {
     "objectID": "posts/presentation/demo/index.html#references",
     "href": "posts/presentation/demo/index.html#references",
-    "title": "SITENAME",
+    "title": "Cholesterol Synthesis",
     "section": "References",
     "text": "References\n\nNelson, D. L., & Cox, M. M. (2021). Lehninger Principles of Biochemistry (8th ed.).\n\nBerg, J. M., Tymoczko, J. L., Gatto, G. J., & Stryer, L. (2019). Biochemistry (9th ed.).\n\n:contentReferenceoaicite:0. (2023). Biology 2e.\n\n:contentReferenceoaicite:1. (2022). Cholesterol and heart disease resources."
   },
