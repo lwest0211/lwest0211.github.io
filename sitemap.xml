@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://USERNAME.github.io/index.html</loc>
-    <lastmod>2026-04-28T18:45:44.010Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/manuscript/index.html</loc>
-    <lastmod>2026-04-28T18:45:44.016Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/index.html</loc>
-    <lastmod>2026-04-28T18:45:44.039Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate-stack.html</loc>
-    <lastmod>2026-04-28T18:45:44.039Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate-code.html</loc>
-    <lastmod>2026-04-28T18:45:44.039Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate.html</loc>
-    <lastmod>2026-04-28T18:45:44.039Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/stack.html</loc>
-    <lastmod>2026-04-28T18:45:44.040Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/fragments-nested.html</loc>
-    <lastmod>2026-04-28T18:45:44.039Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/zoom.html</loc>
-    <lastmod>2026-04-28T18:45:44.040Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate-movement.html</loc>
-    <lastmod>2026-04-28T18:45:44.039Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/fragments-custom.html</loc>
-    <lastmod>2026-04-28T18:45:44.039Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/fragments.html</loc>
-    <lastmod>2026-04-28T18:45:44.039Z</lastmod>
-  </url>
-  <url>
-    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/absolute.html</loc>
-    <lastmod>2026-04-28T18:45:44.039Z</lastmod>
+    <lastmod>2026-05-05T14:02:24.124Z</lastmod>
   </url>
   <url>
     <loc>https://USERNAME.github.io/posts/presentation/index.html</loc>
-    <lastmod>2026-04-28T18:45:44.052Z</lastmod>
+    <lastmod>2026-05-05T14:02:24.174Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/fragments-custom.html</loc>
+    <lastmod>2026-05-05T14:02:24.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate.html</loc>
+    <lastmod>2026-05-05T14:02:24.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate-stack.html</loc>
+    <lastmod>2026-05-05T14:02:24.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/zoom.html</loc>
+    <lastmod>2026-05-05T14:02:24.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/fragments-nested.html</loc>
+    <lastmod>2026-05-05T14:02:24.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/manuscript/index.html</loc>
+    <lastmod>2026-05-05T14:02:24.132Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/index.html</loc>
+    <lastmod>2026-05-05T14:02:24.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/fragments.html</loc>
+    <lastmod>2026-05-05T14:02:24.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/absolute.html</loc>
+    <lastmod>2026-05-05T14:02:24.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/stack.html</loc>
+    <lastmod>2026-05-05T14:02:24.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate-code.html</loc>
+    <lastmod>2026-05-05T14:02:24.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://USERNAME.github.io/posts/presentation/demo/mini/auto-animate-movement.html</loc>
+    <lastmod>2026-05-05T14:02:24.159Z</lastmod>
   </url>
   <url>
     <loc>https://USERNAME.github.io/about.html</loc>
-    <lastmod>2026-04-28T18:45:44.010Z</lastmod>
+    <lastmod>2026-05-05T14:02:24.124Z</lastmod>
   </url>
 </urlset>
