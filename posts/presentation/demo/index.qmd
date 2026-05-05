@@ -23,7 +23,7 @@ format:
 **Key Point:**\
 The body can make all the cholesterol it needs—dietary intake is not required. [@nelson2021; @berg2019]
 
-------------------------------------------------------------------------
+---
 
 ## Key Steps in the Pathway
 
@@ -35,7 +35,7 @@ The body can make all the cholesterol it needs—dietary intake is not required.
 5.  Squalene → **Cholesterol** **Key Point:**\
     HMG-CoA reductase is the most important control point in cholesterol synthesis. [@nelson2021; @openstax2023]
 
-------------------------------------------------------------------------
+---
 
 ## Regulation & Clinical Significance
 
@@ -53,7 +53,7 @@ The body can make all the cholesterol it needs—dietary intake is not required.
 **Key Point:**\
 Regulation ensures the body maintains healthy cholesterol levels. [@berg2019; @aha2022]
 
-------------------------------------------------------------------------
+---
 
 ## References
 
