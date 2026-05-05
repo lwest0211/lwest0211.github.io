@@ -10,7 +10,7 @@
 <atom:link href="https://USERNAME.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Tue, 05 May 2026 14:02:24 GMT</lastBuildDate>
+<lastBuildDate>Tue, 05 May 2026 14:05:33 GMT</lastBuildDate>
 <item>
   <title>How to Study for an Anatomy &amp; Physiology Exam</title>
   <dc:creator>Lanasia West</dc:creator>
@@ -216,7 +216,7 @@
 
  ]]></description>
   <guid>https://USERNAME.github.io/posts/manuscript/</guid>
-  <pubDate>Tue, 05 May 2026 14:02:24 GMT</pubDate>
+  <pubDate>Tue, 05 May 2026 14:05:33 GMT</pubDate>
 </item>
 <item>
   <title>Quarto presentation</title>
@@ -310,7 +310,7 @@
 
  ]]></description>
   <guid>https://USERNAME.github.io/posts/presentation/</guid>
-  <pubDate>Tue, 05 May 2026 14:02:24 GMT</pubDate>
+  <pubDate>Tue, 05 May 2026 14:05:33 GMT</pubDate>
   <media:content url="https://USERNAME.github.io/posts/presentation/images/pres.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>

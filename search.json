@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Tutorials",
     "section": "",
-    "text": "How to Study for an Anatomy & Physiology Exam\n\n\n\n\n\n\n\n\n1777989744\n\n\nLanasia West\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto presentation\n\n\n\n\n\n\n\n\n1777989744\n\n\nMartin Laptev\n\n\n\n\n\nNo matching items\nAttributions\n\nArtwork from “Hello, Quarto” keynote by Mine Çetinkaya-Rundel and Julia Stewart Lowndes, presented at RStudio Conference 2022. Illustrated by Allison Horst.\n\n\n\nA schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto.\n\n\n\n\n\nTwo penguins in a room made of ice, looking out a window. One penguin is holding an icicle as a pointer, pointing at a Quarto logo “moon” in the sky, while the other penguin looks on.\n\n\nFor more from Allison, see her website and GitHub."
+    "text": "How to Study for an Anatomy & Physiology Exam\n\n\n\n\n\n\n\n\n1777989933\n\n\nLanasia West\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto presentation\n\n\n\n\n\n\n\n\n1777989933\n\n\nMartin Laptev\n\n\n\n\n\nNo matching items\nAttributions\n\nArtwork from “Hello, Quarto” keynote by Mine Çetinkaya-Rundel and Julia Stewart Lowndes, presented at RStudio Conference 2022. Illustrated by Allison Horst.\n\n\n\nA schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto.\n\n\n\n\n\nTwo penguins in a room made of ice, looking out a window. One penguin is holding an icicle as a pointer, pointing at a Quarto logo “moon” in the sky, while the other penguin looks on.\n\n\nFor more from Allison, see her website and GitHub."
   },
   {
     "objectID": "posts/presentation/index.html",
@@ -144,7 +144,14 @@
     "href": "posts/presentation/demo/index.html",
     "title": "SITENAME",
     "section": "",
-    "text": "title: “Quarto Presentations” subtitle: “Create beautiful interactive slide decks with Reveal.js” format: revealjs: slide-number: true chalkboard: buttons: false preview-links: auto css: styles.css include-after-body: date.html\n\n\n\n\n## Cholesterol Synthesis: Basics\n\n\n- Cholesterol is a vital lipid used for: - Cell membrane structure\n- Hormone production (steroids)\n- Bile acid formation - Synthesized mainly in the liver\n- Occurs in the cytoplasm and smooth ER\n- Built from a simple molecule: acetyl-CoA\n\n\nKey Point:\nThe body can make all the cholesterol it needs—dietary intake is not required. [@nelson2021; @berg2019]"
+    "text": "title: “Cholesterol Synthesis”\n\n\nformat:\n\n\nrevealjs:\n\n\nslide-number: true\n\n\nchalkboard:\n\n\nbuttons: false\n\n\npreview-links: auto\n\n\ncss: styles.css\n\n\ninclude-after-body: date.html"
+  },
+  {
+    "objectID": "posts/presentation/demo/index.html#cholesterol-synthesis-basics",
+    "href": "posts/presentation/demo/index.html#cholesterol-synthesis-basics",
+    "title": "SITENAME",
+    "section": "Cholesterol Synthesis: Basics",
+    "text": "Cholesterol Synthesis: Basics\n\nCholesterol is a vital lipid used for:\n\nCell membrane structure\n\nHormone production (steroids)\n\nBile acid formation\n\nSynthesized mainly in the liver\n\nOccurs in the cytoplasm and smooth ER\n\nBuilt from a simple molecule: acetyl-CoA\n\nKey Point:\nThe body can make all the cholesterol it needs—dietary intake is not required. [@nelson2021; @berg2019]"
   },
   {
     "objectID": "posts/presentation/demo/index.html#key-steps-in-the-pathway",
