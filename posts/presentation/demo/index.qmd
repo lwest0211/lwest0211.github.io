@@ -1,3 +1,15 @@
+--
+title: "Quarto Presentations"
+subtitle: "Create beautiful interactive slide decks with Reveal.js"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    css: styles.css
+    include-after-body: date.html
+---
 ## Cholesterol Synthesis: Basics
 
 -   Cholesterol is a vital lipid used for:
