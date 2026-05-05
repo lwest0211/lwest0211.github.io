@@ -1,5 +1,6 @@
 ---
 title: "Cholesterol Synthesis"
+author: "Lanasia West"
 format:
   revealjs: 
     slide-number: true
